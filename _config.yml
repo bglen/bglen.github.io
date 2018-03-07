@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
 title: [Brian Glen]
 description: [Projects and other things.]
-show_downloads: [false]
+show_downloads: [true]
 google_analytics: [UA-115283982-1]

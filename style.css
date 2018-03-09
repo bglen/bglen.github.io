@@ -1,11 +1,27 @@
-#main_body{
-	background-color: #111111;
+#background{
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+#canvas{
+	poistion: fixed;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+
+#main_body{
 
 }
 
-#console {
+#terminal {
+	position: fixed;
+	z-index: 1;
+	margin-right: 700px;
 	color: white;
 	text-align: left;
 	text-decoration: none;
@@ -15,7 +31,7 @@
 }
 
 .start_sequence {
-	color: #22a32f;
+	color: #40b6d1;
 	text-align: left;
 	text-decoration: none;
 	font-family: 'Monaco', monospace;

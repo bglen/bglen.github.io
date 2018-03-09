@@ -1,6 +1,6 @@
-function type(/**/) { for (var i = 0; i < arguments.length; i++) $('#console').append(arguments[i]); }
+function type(/**/) { for (var i = 0; i < arguments.length; i++) $('#terminal').append(arguments[i]); }
 
-function clear() { $('#console').empty(); }
+function clear() { $('#terminal').empty(); }
 
 var buffer = [];
 var iter = 0;
@@ -48,8 +48,8 @@ $(document).ready(function () {
     line();
     //add_normal("<script src=\"input_process.js\"></script>");
 
-    //runs when console is ready
-    $("#console").ready(function () {
+    //runs when terminal is ready
+    $("#terminal").ready(function () {
         clear();
         type("<div class='start_sequence'>Initialzing System... 100%</div>");
         type("<br>");

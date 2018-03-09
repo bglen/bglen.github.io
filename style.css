@@ -1,5 +1,5 @@
 #main_body{
-	background-color: #032530;
+	background-color: #333333;
 	width: 100%;
 	height: 100%;
 
@@ -12,4 +12,15 @@
 	font-family: 'Monaco', monospace;
 	font-size: 12pt;
 	font-weight: normal;
+}
+
+.start_sequence {
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Monaco', monospace;
+	font-size: 12pt;
+	font-weight: normal;
+
+
 }

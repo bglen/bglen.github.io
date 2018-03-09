@@ -6,11 +6,15 @@ var buffer = [];
 var iter = 0;
 
 function add_normal(x) {
-    buffer.unshift(x + "<br />");
+    buffer.unshift("Brians-Website:~ home$ " + x + "<br />");
+}
+
+function line(){
+	buffer.unshift("<br />");
 }
 
 function add(x) {
-    buffer.unshift("Brians~Website:~ home$ ");
+    buffer.unshift("Brians-Website:~ home$ ");
     y = x.split(" ");
     for (var i = 0; i < y.length; i++)
         buffer.unshift(y[i] + " ");
@@ -30,27 +34,25 @@ function reorder() {
 $(document).ready(function () {
 	console.log("Initialized.");
     add("Welcome to my personal website.");
-    add("Here is where I will upload a couple of my personal projects that you can access.")
-    add_normal("")
-    add_normal("")
-    add_normal("Check out my <a target='_blank' href='https://www.linkedin.com/in/priansh'>LinkedIn</a>!")
-    add_normal("Or maybe my <a target='_blank' href='https://www.linkedin.com/in/priansh'>Github?</a>!")
-    add_normal("Don't forget about my <a target='_blank' href='https://www.linkedin.com/in/priansh'>Devpost!</a>!")
-    add_normal("")
-    add("I also love to write!")
-    add_normal("<a target='_blank' href='http://artandwriting.org/media/366221'>Here's my Scholastic Gold Medal piece from highschool.")
-    add_normal("Check out my <a target='_blank' href='https://www.medium.com/@priansh'>Medium</a> blog!")
-    add_normal("")
-    add("Loading kernel: | / - | \\ | 100%")
-    add_normal("")
+    line();
+    add("Here is where I will upload a couple of my personal projects that you can access.");
+    line();
+    line();
+    add_normal("Check out my <a target='_blank' href='https://www.linkedin.com/in/brian-glen-698756129/'>LinkedIn</a>");
+    add_normal("Here's my <a target='_blank' href='https://github.com/bglen'>Github?</a> while your at it.");
+    add_normal("Also, don't forget about my <a target='_blank' href='https://devpost.com/BrianGlen'>Devpost.</a>, where I post all my hackathon submissions.");
+    line();
+    add("Looks like I haven't got around to posting anything recently. Stay tuned.");
+    line();
+    add(":");
+    line();
     //add_normal("<script src=\"input_process.js\"></script>");
 
     //runs when console is ready
     $("#console").ready(function () {
         clear();
-        type("<div class='start_sequence'Initialzing System...");
+        type("<div class='start_sequence'Initialzing System... 100%</div>");
         type("<br>");
-        type("<div>> Hello World!</div>");
 
 
         buffer = reorder();

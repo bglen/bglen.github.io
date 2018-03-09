@@ -1,5 +1,5 @@
 #main_body{
-	background-color: #333333;
+	background-color: #111111;
 	width: 100%;
 	height: 100%;
 
@@ -23,4 +23,24 @@
 	font-weight: normal;
 
 
+}
+
+/* unvisited link */
+a:link {
+    color: #40b6d1;
+}
+
+/* visited link */
+a:visited {
+    color: #40b6d1;
+}
+
+/* mouse over link */
+a:hover {
+    color: #40b6d1;
+}
+
+/* selected link */
+a:active {
+    color: #40b6d1;
 }

@@ -28,6 +28,7 @@ function reorder() {
 
 //runs when document loads
 $(document).ready(function () {
+	consol.log("Initialized.");
     add("Welcome to my personal website.");
     add("Here is where I will upload a couple of my personal projects that you can access.")
     add_normal("")

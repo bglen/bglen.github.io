@@ -66,3 +66,4 @@ $(document).ready(function () {
     }
 
     setTimeout(typeItOut, 100);
+});

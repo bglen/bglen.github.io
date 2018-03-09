@@ -5,7 +5,7 @@ function clear() { $('#console').empty(); }
 var buffer = [];
 var iter = 0;
 
-function add_normal(x) {
+function add_linked(x) {
     buffer.unshift("Brians-Website:~ home$ " + x + "<br />");
 }
 
@@ -35,15 +35,16 @@ $(document).ready(function () {
 	console.log("Initialized.");
     add("Welcome to my personal website.");
     line();
+    line();
     add("Here is where I will upload a couple of my personal projects that you can access.");
     line();
+    add_linked("Check out my <a target='_blank' href='https://www.linkedin.com/in/brian-glen-698756129/'>LinkedIn.</a>");
+    add_linked("Here's my <a target='_blank' href='https://github.com/bglen'>Github</a> while your at it.");
+    add_linked("Also, don't forget about my <a target='_blank' href='https://devpost.com/BrianGlen'>Devpost</a>, where I post all my hackathon submissions.");
     line();
-    add_normal("Check out my <a target='_blank' href='https://www.linkedin.com/in/brian-glen-698756129/'>LinkedIn</a>");
-    add_normal("Here's my <a target='_blank' href='https://github.com/bglen'>Github?</a> while your at it.");
-    add_normal("Also, don't forget about my <a target='_blank' href='https://devpost.com/BrianGlen'>Devpost.</a>, where I post all my hackathon submissions.");
     line();
-    add("Looks like I haven't got around to posting anything recently. Stay tuned.");
     line();
+    add("Looks like I haven't got around to posting anything recently. Stay tuned for some projects I'm about to finish.");
     add(":");
     line();
     //add_normal("<script src=\"input_process.js\"></script>");
@@ -51,7 +52,7 @@ $(document).ready(function () {
     //runs when console is ready
     $("#console").ready(function () {
         clear();
-        type("<div class='start_sequence'Initialzing System... 100%</div>");
+        type("<div class='start_sequence'>Initialzing System... 100%</div>");
         type("<br>");
 
 
@@ -63,7 +64,7 @@ $(document).ready(function () {
     function typeItOut() {
         if (iter > -1) {
             type(buffer[iter]); iter--;
-            setTimeout(typeItOut, 70);
+            setTimeout(typeItOut, 55);
         }
         else return;
     }

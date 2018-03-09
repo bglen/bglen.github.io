@@ -43,7 +43,6 @@ $(document).ready(function () {
     add_linked("Also, don't forget about my <a target='_blank' href='https://devpost.com/BrianGlen'>Devpost</a>, where I post all my hackathon submissions.");
     line();
     line();
-    line();
     add("Looks like I haven't got around to posting anything recently. Stay tuned for some projects I'm about to finish.");
     add(":");
     line();

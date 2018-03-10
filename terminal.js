@@ -1,4 +1,7 @@
-function type(/**/) { for (var i = 0; i < arguments.length; i++) $('#terminal').append(arguments[i]); }
+function type(/**/) {
+ for (var i = 0; i < arguments.length; i++)
+  $('#terminal').append(arguments[i]); 
+}
 
 function clear() { $('#terminal').empty(); }
 
@@ -50,8 +53,20 @@ $(document).ready(function () {
 
     //runs when terminal is ready
     $("#terminal").ready(function () {
+        var percentage = 0;
+
+        function startUp() {
+            if(percentage < 100){
+                clear();
+                percentage += 2;
+                type("<div class='start_sequence'>Initialzing System... " + percentage + "%</div>");
+                setTimeout(startUp, 5);
+            }
+        }
+
         clear();
-        type("<div class='start_sequence'>Initialzing System... 100%</div>");
+        type("<div class='start_sequence'>Initialzing System... 0%</div>");
+        setTimeout(startUp(), 1);
         type("<br>");
 
 
@@ -68,5 +83,5 @@ $(document).ready(function () {
         else return;
     }
 
-    setTimeout(typeItOut, 100);
+    setTimeout(typeItOut, 2000);
 });

@@ -7,6 +7,7 @@ function clear() { $('#terminal').empty(); }
 
 var buffer = [];
 var iter = 0;
+var doneLoading = false;
 
 function add_linked(x) {
     buffer.unshift("Brians-Website:~ home$ " + x + "<br />");
@@ -50,7 +51,6 @@ $(document).ready(function () {
     line();
     line();
     add(":");
-    line();
     //add_normal("</div><script src=\"computer.js\"></script>");
 
     //runs when terminal is ready
@@ -66,24 +66,29 @@ $(document).ready(function () {
             }
         }
 
-        clear();
         type("<div class='start_sequence'>Initialzing System... 0%</div>");
         setTimeout(startUp(), 1);
         type("<br>");
-
+        doneLoading = true;
+        console.log("Initialized System to 100%");
 
         buffer = reorder();
+
+        function typeItOut() {
+            if (iter > -1) {
+                type(buffer[iter]); iter--;
+                setTimeout(typeItOut, 20);
+            }else{
+                return;
+            }
+        }
+
+        if(doneLoading == true){
+            console.log("Loading Text");
+            setTimeout(typeItOut, 1000);
+        }
     });
 
     iter = buffer.length - 1;
 
-    function typeItOut() {
-        if (iter > -1) {
-            type(buffer[iter]); iter--;
-            setTimeout(typeItOut, 55);
-        }
-        else return;
-    }
-
-    setTimeout(typeItOut, 2500);
 });

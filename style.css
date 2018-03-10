@@ -14,14 +14,11 @@
 }
 
 
-#main_body{
 
-}
 
 #terminal {
 	position: fixed;
 	z-index: 1;
-	margin-right: 700px;
 	color: white;
 	text-align: left;
 	text-decoration: none;
@@ -31,14 +28,21 @@
 }
 
 .start_sequence {
-	color: #40b6d1;
-	text-align: left;
+	color: #40b6d1;;
 	text-decoration: none;
 	font-family: 'Monaco', monospace;
 	font-size: 11pt;
 	font-weight: normal;
 
 
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 /* unvisited link */

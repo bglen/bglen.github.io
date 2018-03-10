@@ -103,8 +103,10 @@ WarpSpeed.prototype={
 					ctx.beginPath();
 					var x2OnDisplay=s.x/(s.z+this.WARP_EFFECT_LENGTH*this.SPEED), y2OnDisplay=s.y/(s.z+this.WARP_EFFECT_LENGTH*this.SPEED);
 
+					//IF the are on the display
 					if(x2OnDisplay<-5.0||x2OnDisplay>5.0||y2OnDisplay<-0.5||y2OnDisplay>0.5)continue;
 
+					//create lines
 					ctx.moveTo((canvas.width*0.20)*(xOnDisplay+0.5)-size/2,(canvas.height*1.25)*(yOnDisplay+0.5)-size/2);
 					ctx.lineTo((canvas.width*0.20)*(x2OnDisplay+0.5)-size/2,(canvas.height*1.25)*(y2OnDisplay+0.5)-size/2);
 					ctx.lineWidth = size>this.maxLineWidth?this.maxLineWidth:size;

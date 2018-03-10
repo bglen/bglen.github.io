@@ -7,16 +7,15 @@
     <link rel="stylesheet" type="text/css" href="style.css" title="style">
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script type="text/javascript" src="warpspeed.js"></script>
-    <link rel="icon" type="image/png" sizes="16x16" href="../icons/mars-16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../icons/mars-32.png">
-    <link rel="icon" type="image/png" sizes="64x64" href="../icons/mars-64.png">
    </head>
 
-  <body id="main_body"> 
+  <body class="center"> 
     <canvas id="canvas" style="position:fixed; top:0; left:0; width:100%; height:100%;"></canvas>
-    <script>var x=new WarpSpeed("canvas", {"speed":0.6,"speedAdjFactor":0.03,"density":15,"shape":"square","warpEffect":true,"warpEffectLength":5,"depthFade":true,"starSize":1.3,"backgroundColor":"hsl(205,45%,7%)","starColor":"#FFFFFF"});</script>
+    <script>var x=new WarpSpeed("canvas", {"speed":0.7,"speedAdjFactor":0.9,"density":5,"shape":"circle","warpEffect":false,"depthFade":false,"starSize":3,"backgroundColor":"hsl(205,45%,7%)","starColor":"#FFFFFF"});</script>
 
-    <div id="terminal"></div>
+    <div class="center" id="terminal">
+      <p> this a pargraphd!!</p>
+    </div>
     <script src="terminal.js"></script>
   </body>
 </html>

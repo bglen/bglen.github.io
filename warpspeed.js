@@ -43,8 +43,10 @@ function WarpSpeed(targetId,config){
 	this.STAR_R=color[0]; this.STAR_G=color[1]; this.STAR_B=color[2];
 	this.prevW=-1; this.prevH=-1; //width and height will be set at first draw call
 	this.stars=[];
+	//CREATE AND ADD STARS
 	for(var i=0;i<this.DENSITY*1000;i++){
-		this.stars.push(new Star((Math.random()-0.5)*1000,(Math.random()-0.5)*1000,1000*Math.random()));
+		//X: -0.250 to 1.25
+		this.stars.push(new Star((Math.random()*1.5- 0.5)*1000,(Math.random()-0.5)*1000,1000*Math.random()));
 	}
 	this.lastMoveTS=timeStamp();
 	this.drawRequest=null;
@@ -61,47 +63,62 @@ WarpSpeed.prototype={
 			this.destroy();
 			return;
 		}
+		//advance stars
 		this.move();
 		var canvas=document.getElementById(this.targetId);
+
 		if(!this.PAUSED&&isVisible(canvas)){
 			if(this.prevW!=canvas.clientWidth||this.prevH!=canvas.clientHeight){
 				canvas.width=(canvas.clientWidth<10?10:canvas.clientWidth)*(window.devicePixelRatio||1);
 				canvas.height=(canvas.clientHeight<10?10:canvas.clientHeight)*(window.devicePixelRatio||1);
 			}
+
 			this.size=(canvas.height<canvas.width?canvas.height:canvas.width)/(10/(this.STAR_SCALE<=0?0:this.STAR_SCALE));
 			if(this.WARP_EFFECT) this.maxLineWidth=this.size/30;
+
 			var ctx=canvas.getContext("2d");
 			ctx.fillStyle=this.BACKGROUND_COLOR;
 			ctx.fillRect(0,0,canvas.width,canvas.height);
 			var rgb="rgb("+this.STAR_R+","+this.STAR_G+","+this.STAR_B+")", rgba="rgba("+this.STAR_R+","+this.STAR_G+","+this.STAR_B+",";
+
+			//FOR EACH STAR IN ARRAY
 			for(var i=0;i<this.stars.length;i++){
 				var s=this.stars[i];
 				var xOnDisplay=s.x/s.z, yOnDisplay=s.y/s.z;
+
 				if(!this.WARP_EFFECT&&(xOnDisplay<-0.5||xOnDisplay>0.5||yOnDisplay<-0.5||yOnDisplay>0.5))continue;
 				var size=s.size*this.size/s.z;
+
 				if(size<0.3) continue; //don't draw very small dots
+
+				//colorize the stars if enabled
 				if(this.DEPTH_ALPHA){
 					var alpha=(1000-s.z)/1000;
 					ctx.fillStyle=rgba+(alpha>1?1:alpha)+")";
 				}else{
 					ctx.fillStyle=rgb;
 				}
+
 				if(this.WARP_EFFECT){
 					ctx.beginPath();
 					var x2OnDisplay=s.x/(s.z+this.WARP_EFFECT_LENGTH*this.SPEED), y2OnDisplay=s.y/(s.z+this.WARP_EFFECT_LENGTH*this.SPEED);
-					if(x2OnDisplay<-0.5||x2OnDisplay>0.5||y2OnDisplay<-0.5||y2OnDisplay>0.5)continue;
-					ctx.moveTo(canvas.width*(xOnDisplay+0.5)-size/2,canvas.height*(yOnDisplay+0.5)-size/2);
-					ctx.lineTo(canvas.width*(x2OnDisplay+0.5)-size/2,canvas.height*(y2OnDisplay+0.5)-size/2);
-					ctx.lineWidth=size>this.maxLineWidth?this.maxLineWidth:size;
+
+					if(x2OnDisplay<-5.0||x2OnDisplay>5.0||y2OnDisplay<-0.5||y2OnDisplay>0.5)continue;
+
+					ctx.moveTo((canvas.width*0.20)*(xOnDisplay+0.5)-size/2,(canvas.height*1.25)*(yOnDisplay+0.5)-size/2);
+					ctx.lineTo((canvas.width*0.20)*(x2OnDisplay+0.5)-size/2,(canvas.height*1.25)*(y2OnDisplay+0.5)-size/2);
+					ctx.lineWidth = size>this.maxLineWidth?this.maxLineWidth:size;
+
 					if(this.USE_CIRCLES){ctx.lineCap="round";}else{ctx.lineCap="butt"}
 					ctx.strokeStyle=ctx.fillStyle;
 					ctx.stroke();
+
 				}else if(this.USE_CIRCLES){
 					ctx.beginPath();
 					ctx.arc(canvas.width*(xOnDisplay+0.5)-size/2,canvas.height*(yOnDisplay+0.5)-size/2,size/2,0,2*Math.PI);
 					ctx.fill();
 				}else{
-					ctx.fillRect(canvas.width*(xOnDisplay+0.5)-size/2,canvas.height*(yOnDisplay+0.5)-size/2,size,size);
+					ctx.fillRect((canvas.width*0.25)*(xOnDisplay+0.5)-size/2,(canvas.height*1.5)*(yOnDisplay+0.5)-size/2,size,size);
 				}
 			}
 			this.prevW=canvas.clientWidth;

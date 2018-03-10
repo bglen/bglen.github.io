@@ -83,5 +83,5 @@ $(document).ready(function () {
         else return;
     }
 
-    setTimeout(typeItOut, 2000);
+    setTimeout(typeItOut, 2500);
 });

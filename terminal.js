@@ -47,9 +47,11 @@ $(document).ready(function () {
     line();
     line();
     add("Looks like I haven't got around to posting anything recently. Stay tuned for some projects I'm about to finish.");
+    line();
+    line();
     add(":");
     line();
-    //add_normal("<script src=\"input_process.js\"></script>");
+    //add_normal("</div><script src=\"computer.js\"></script>");
 
     //runs when terminal is ready
     $("#terminal").ready(function () {

@@ -57,12 +57,23 @@ $(document).ready(function () {
     $("#terminal").ready(function () {
         var percentage = 0;
 
+        //Loading Graphics
         function startUp() {
             if(percentage < 100){
                 clear();
                 percentage += 2;
                 type("<div class='start_sequence'>Initialzing System... " + percentage + "%</div>");
                 setTimeout(startUp, 5);
+            }
+        }
+
+        //Write out Intro
+        function typeItOut() {
+            if (iter > -1) {
+                type(buffer[iter]); iter--;
+                setTimeout(typeItOut, 20);
+            }else{
+                return;
             }
         }
 
@@ -74,19 +85,13 @@ $(document).ready(function () {
 
         buffer = reorder();
 
-        function typeItOut() {
-            if (iter > -1) {
-                type(buffer[iter]); iter--;
-                setTimeout(typeItOut, 20);
-            }else{
-                return;
-            }
-        }
-
         if(doneLoading == true){
             console.log("Loading Text");
             setTimeout(typeItOut, 1000);
         }
+
+        //Start computer
+
     });
 
     iter = buffer.length - 1;

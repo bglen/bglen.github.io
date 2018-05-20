@@ -2,6 +2,15 @@
 layout: default
 ---
 
+Welcome to my personal website.
+
+This is where I upload projects that people might find interesting.
+Check out my Linkedin[d1], Github[d2], and Devpost[d3] pages.
+
+  [d1]: https://www.linkedin.com/in/brian-glen-6987561
+  [d2]: https://github.com/bglen
+  [d3]: https://devpost.com/BrianGlen
+
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Link to another page](./another-page.html).

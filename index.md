@@ -15,11 +15,14 @@ Some project That I have been working on recently:
 
 | Projects
 |:----------
-| Bluetooth LED Lixie Clock
-| 1988 IROC-Z Camaro
-| 1981 Volkswagon Rabbit
-| A special project for the Maker community
-| A company called SolderMonkey
+| **Bluetooth LED Lixie Clock**
+| **1988 IROC-Z Camaro**
+| **1981 Volkswagon Rabbit**
+| **A special project for the Maker community**
+| **A company called** [**SolderMonkey**]
+
+  [**SolderMonkey**]: https://www.thesoldermonkey.com
+|:----------
 
 In additon to these projects, I will occasianally post anything else that I might find interesting. For example, I wrote a(still incomplete) guide on how to build your "electronic anything" that I will be posting here shortly(aka within the next year).
 

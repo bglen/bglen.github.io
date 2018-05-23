@@ -5,11 +5,23 @@ layout: default
 Welcome to my personal website.
 
 This is where I upload projects that people might find interesting.
-Check out my Linkedin[d1], Github[d2], and Devpost[d3] pages.
+Check out my [LinkedIn], [GitHub]], and [Devpost] pages.
 
-  [d1]: https://www.linkedin.com/in/brian-glen-6987561
-  [d2]: https://github.com/bglen
-  [d3]: https://devpost.com/BrianGlen
+  [LinkedIn]: https://www.linkedin.com/in/brian-glen-6987561
+  [GitHub]: https://github.com/bglen
+  [Devpost]: https://devpost.com/BrianGlen
+
+Some project That I have been working on recently:
+
+| Projects
+|:----------
+| Bluetooth LED Lixie Clock
+| 1988 IROC-Z Camaro
+| 1981 Volkswagon Rabbit
+| A special project for the Maker community
+| A company called SolderMonkey
+
+In additon to these projects, I will occasianally post anything else that I might find interesting. For example, I wrote a(still incomplete) guide on how to build your "electronic anything" that I will be posting here shortly(aka within the next year).
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 

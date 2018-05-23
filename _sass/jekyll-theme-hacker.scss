@@ -39,23 +39,23 @@ li {
 }
 
 /* Header, <header>
-   header   - container
-   h1       - project name
-   h2       - project description
+  header   - container
+    h1       - project name
+    h2       - project description
 */
 
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed $conifer; //header;
+  /*border-bottom: 1px dashed $conifer; //header;*/
   padding: 20px 0;
   margin: 0 0 40px 0;
+  text-align: center;
 }
 
 header h1 {
   font-size: 30px;
   line-height: 1.5;
-  margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $conifer;//$header;
@@ -78,12 +78,14 @@ header h2 {
   margin: 0;
 }
 
-/* Main Content
-*/
+
+/* Main Content*/
 
 #main_content {
   width: 100%;
   -webkit-font-smoothing: antialiased;
+  border: 2px solid #FFFFFF;
+  border-radius: 15px;
 }
 section img {
   max-width: 100%

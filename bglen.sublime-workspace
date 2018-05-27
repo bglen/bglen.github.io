@@ -184,7 +184,7 @@
 			"file": "index.md",
 			"settings":
 			{
-				"buffer_size": 3479,
+				"buffer_size": 948,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -254,7 +254,8 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/brian/Documents/GitHub/brianglen.github.io"
+		"/Users/brian/Documents/GitHub/brianglen.github.io",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/docs"
 	],
 	"file_history":
 	[
@@ -371,15 +372,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3479,
+						"buffer_size": 948,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								645,
-								645
+								613,
+								613
 							]
 						],
 						"settings":
@@ -389,7 +390,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1814.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

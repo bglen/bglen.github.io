@@ -7,7 +7,7 @@ Welcome to my personal website.
 This is where I upload projects that people might find interesting.
 Check out my [LinkedIn], [GitHub], and [Devpost] pages.
 
-  [LinkedIn]: https://www.linkedin.com/in/brian-glen-6987561
+  [LinkedIn]: https://www.linkedin.com/in/brian-glen-698756129/
   [GitHub]: https://github.com/bglen
   [Devpost]: https://devpost.com/BrianGlen
 

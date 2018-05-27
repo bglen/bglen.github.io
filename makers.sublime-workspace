@@ -171,15 +171,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/brian/Documents/GitHub/MakerMedia/_config.yml",
-			"settings":
-			{
-				"buffer_size": 68,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -222,6 +213,7 @@
 	],
 	"file_history":
 	[
+		"/Users/brian/Documents/GitHub/MakerMedia/_config.yml",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/_layouts/default.html",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/index.md",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/docs/CODE_OF_CONDUCT.md",
@@ -296,37 +288,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/brian/Documents/GitHub/MakerMedia/_config.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 68,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								67,
-								67
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

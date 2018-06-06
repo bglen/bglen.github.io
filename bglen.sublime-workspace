@@ -184,7 +184,7 @@
 			"file": "index.md",
 			"settings":
 			{
-				"buffer_size": 948,
+				"buffer_size": 951,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -255,6 +255,7 @@
 	"expanded_folders":
 	[
 		"/Users/brian/Documents/GitHub/brianglen.github.io",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/_sass",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/docs"
 	],
 	"file_history":
@@ -372,15 +373,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 948,
+						"buffer_size": 951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								613,
-								613
+								246,
+								246
 							]
 						],
 						"settings":

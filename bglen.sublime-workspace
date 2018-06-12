@@ -184,7 +184,7 @@
 			"file": "index.md",
 			"settings":
 			{
-				"buffer_size": 951,
+				"buffer_size": 902,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -303,7 +303,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -373,15 +373,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 951,
+						"buffer_size": 902,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								246,
-								246
+								879,
+								879
 							]
 						],
 						"settings":
@@ -486,7 +486,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -523,7 +523,7 @@
 	"project": "bglen.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":

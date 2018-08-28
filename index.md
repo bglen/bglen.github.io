@@ -14,12 +14,13 @@ Check out my [LinkedIn], [GitHub], and [Devpost] pages. Some projects that I hav
 
 | Projects
 |:----------
-| A company called [**Nifty Parts**] {bootstrapping}
-| A robotic tank {breaking it over and over again}
-| A Bluetooth LED Lixie Clock {done!}
-| My first car, a 1988 IROC-Z Camaro {installing fuel injection}
-| A frame-off restoration of a 1981 Volkswagon Rabbit {sitting for a while}
-| Another company called [**SolderMonkey**] {selling PCBs like hotcakes!}
+| A business called [**Nifty Parts**] (currently bootstrapping)
+| An electric bike powered by a li-ion battery / supercapacitor (my sophmore year project)
+| A robotic tank (in need of repair)
+| A Bluetooth LED Lixie Clock (my freshman year project, done!)
+| My first car, a 1988 IROC-Z Camaro (installing fuel injection)
+| A frame-off restoration of a 1981 Volkswagon Rabbit (sitting for a while)
+| A side project called [**SolderMonkey**] (products listed on Tindie!)
 
   [**Nifty Parts**]: nifty.parts
   [**SolderMonkey**]: https://www.thesoldermonkey.com

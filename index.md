@@ -22,7 +22,7 @@ Check out my [LinkedIn], [GitHub], and [Devpost] pages. Some projects that I hav
 | A frame-off restoration of a 1981 Volkswagon Rabbit (sitting for a while)
 | A side project called [**SolderMonkey**] (products listed on Tindie!)
 
-  [**Nifty Parts**]: nifty.parts
-  [**SolderMonkey**]: https://www.thesoldermonkey.com
+  [**Nifty Parts**]: https://www.nifty.parts
+  [**SolderMonkey**]: www.thesoldermonkey.com
 
 In additon to these projects, I will occasianally post anything else that I might find interesting. I once wrote an incomplete guide on how to build your "electronic anything" that I will eventually post, sometime this year.

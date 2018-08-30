@@ -26,10 +26,18 @@ To get in to the electric bike project, lets start off by naming a few constrain
 - ~30 mph top speed
 - ~18-20 mile range
 
+<p align="center">
+  <img src="https://www.brianglen.com/assets/bike_rear_wheel.png" alt="Rear Wheel"/>
+</p>
+
 In terms of top speed and mileage, I don't have any hard numbers, other than fast and far. If I was to guess, around 30 mph and about 18-20 mile range. Why two motors? Sure, I could get one big motor, but I bet that I can fit two motors in to a smaller package. Plus, it's cool to say your ebike has two motors. Pedal-less start can be acheived through a high KV motor combined with low gearing, or a more realistic gear reduction and the use of sensored motors. Right now, I'm thinking about going with the latter, as it would better preserve top speed.
 
 As for the supercapacitors, I plan on designing and building the bike first, determine its speed and range, starting abilities, etc. before implementing the supercapacitors to aide in high-current delivery. This way, I'll have a solid benchmark for a before and after comparison.
 
 The "idea" behind adding supercapacitors is very much the same behind a traditional KER(kinetic energy recovery) system used on buses. The li-ion battery is great for high capacity, low discharge use, where a super or ultracapacitor is great for low capacity, high discharge applications. Combine the two, and you get the best of both worlds. The supercapacitor handles high current scenarios such as starting or hard regenerative braking, meaning that the li-ion battery does not see quick, burst current discharges. This keeps the pack temperature and increases the li-ion battery's life, as much as 30% on commercial KERS. I'm not entirely sure about this second point, but I beleive having greater burst current capability Most likely, I will need to create some sort of current control circuit to make this all work in unison.
+
+<p align="center">
+  <img src="https://www.brianglen.com/assets/cad_rear_frame.png" alt="It's getting there..."/>
+</p>
 
 So, what next? Right now, I am drawing up the rear of my bike in Solidworks. With the preliminary requirements out of the way, I can focus on drivetrain placement that satisfies the physical requirements such as retention of disc brakes. The second thing that needs to be worked out is the gearing, system voltage, and the battery pack specifications that will satisfy those requirements.

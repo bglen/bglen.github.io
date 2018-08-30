@@ -15,7 +15,7 @@ Check out my [LinkedIn], [GitHub], and [Devpost] pages. Some projects that I hav
 | Projects
 |:----------
 | A business called [**Nifty Parts**] (currently bootstrapping)
-| An [electric bike]({{ site.baseurl }}{% post_url 2018-08-28-electric-bike %}) powered by a li-ion battery / supercapacitor (my sophmore year project)
+| An [**electric bike**]({{ site.baseurl }}{% post_url 2018-08-28-electric-bike %}) powered by a li-ion battery / supercapacitor (my sophmore year project)
 | A robotic tank (in need of repair)
 | A Bluetooth LED Lixie Clock (my freshman year project, done!)
 | My first car, a 1988 IROC-Z Camaro (installing fuel injection)

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: How to Build a Safe Li-ion Battery 
+title: How to Build a Safe Li-ion Battery
+author: Brian Glen
 ---
 
 The specifications of the electrike bike have been finalized! I'll post more details soon, but a quick overview:

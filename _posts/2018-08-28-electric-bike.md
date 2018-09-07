@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building an Electric Bike
+author: Brian Glen
 ---
 
 <p align="center">

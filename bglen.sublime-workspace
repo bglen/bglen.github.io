@@ -184,7 +184,7 @@
 			"file": "_posts/2018-08-28-electric-bike.md",
 			"settings":
 			{
-				"buffer_size": 3450,
+				"buffer_size": 3469,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -193,7 +193,25 @@
 			"file": "_posts/2018-09-06-building-a-battery.md",
 			"settings":
 			{
-				"buffer_size": 72,
+				"buffer_size": 3482,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/jekyll-theme-minimal.scss",
+			"settings":
+			{
+				"buffer_size": 3501,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 2630,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -202,16 +220,7 @@
 			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 78,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "old_versions/style.css",
-			"settings":
-			{
-				"buffer_size": 803,
+				"buffer_size": 152,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -220,7 +229,7 @@
 			"file": "404.md",
 			"settings":
 			{
-				"buffer_size": 172,
+				"buffer_size": 125,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -264,19 +273,22 @@
 	"expanded_folders":
 	[
 		"/Users/brian/Documents/GitHub/brianglen.github.io",
-		"/Users/brian/Documents/GitHub/brianglen.github.io/_posts"
+		"/Users/brian/Documents/GitHub/brianglen.github.io/_layouts",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/_sass"
 	],
 	"file_history":
 	[
+		"/Users/brian/Documents/GitHub/brianglen.github.io/_layouts/default.html",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/old_versions/style.css",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/_layouts/post.html",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/_layouts/index.html",
 		"/Users/brian/Downloads/bldc-hardware-master/README.md",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/_sass/jekyll-theme-hacker.scss",
-		"/Users/brian/Documents/GitHub/brianglen.github.io/_layouts/default.html",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/index.md",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/docs/CODE_OF_CONDUCT.md",
 		"/Users/brian/Documents/GitHub/soldermonkey.github.io/index.md",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/old_versions/terminal.js",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/_sass/rouge-base16-dark.scss",
-		"/Users/brian/Documents/GitHub/brianglen.github.io/old_versions/style.css",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/style.css",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/terminal.js",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/index.html",
@@ -344,7 +356,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -374,7 +386,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -383,15 +395,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3450,
+						"buffer_size": 3469,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								53,
-								0
+								68,
+								68
 							]
 						],
 						"settings":
@@ -402,7 +414,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -411,15 +423,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 72,
+						"buffer_size": 3482,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								72,
-								72
+								77,
+								77
 							]
 						],
 						"settings":
@@ -427,27 +439,87 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 497.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "_config.yml",
+					"file": "_sass/jekyll-theme-minimal.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 78,
+						"buffer_size": 3501,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								373,
+								373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 48.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								733,
+								733
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 132.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
 							]
 						],
 						"settings":
@@ -458,52 +530,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "old_versions/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 803,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								224,
-								224
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 274.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "404.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 172,
+						"buffer_size": 125,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								109,
-								109
+								125,
+								125
 							]
 						],
 						"settings":
@@ -526,7 +570,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 40.0
 	},
 	"layout":
 	{

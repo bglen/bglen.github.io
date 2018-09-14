@@ -24,6 +24,6 @@ Check out my [LinkedIn], [GitHub], and [Devpost] pages. Some projects that I hav
 | A guide on how to build your "electronic everything" 
 
   [**Nifty Parts**]: nifty.parts
-  [**SolderMonkey**]: https//www.thesoldermonkey.com
+  [**SolderMonkey**]: http://www.thesoldermonkey.com
 
 In additon to these projects, I will occasianally post anything else that I might find interesting.

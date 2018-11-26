@@ -14,13 +14,13 @@ Check out my [LinkedIn], [GitHub], and [Devpost] pages. Some projects that I hav
 
 | Projects
 |:----------
-| A business called **Nifty Parts** (beta release in the next week!)
-| An [**electric bike project**]({{ site.baseurl }}{% post_url 2018-08-28-electric-bike %}) powered by a li-ion battery / supercapacitor (my sophmore year project)
+| A business called **Nifty Parts** (Finalist in UA/eBay Startup Challlenge!)
+| An [**electric bike project**]({{ site.baseurl }}{% post_url 2018-08-28-electric-bike %})(sophmore year project)
 | A robotic tank (in need of repair)
-| A Bluetooth LED Lixie Clock (my freshman year project, done!)
-| My first car, a 1988 IROC-Z Camaro (installing fuel injection)
+| A Bluetooth LED Lixie Clock (freshman year project, done!)
+| My first car, a 1988 IROC-Z Camaro (done!)
 | A frame-off restoration of a 1981 Volkswagon Rabbit (sitting for a while)
-| A side project called [**SolderMonkey**] (products listed on Tindie!)
+| A side project called [**SolderMonkey**] (products listed on Tindie and eBay!)
 | [**A guide on how to build your "electronic everything"**](needs updating) 
 
   [**SolderMonkey**]: http://www.thesoldermonkey.com

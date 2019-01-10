@@ -4,6 +4,8 @@ layout: default
 
 Welcome to my personal website.
 
+Yes, I need to update this.
+
 This is where I upload projects that people might find interesting. I make all sorts of electronic projects, work on business ideas, modify cars, and never finish things.
 
 Check out my [LinkedIn], [GitHub], and [Devpost] pages. Some projects that I have been working on recently:

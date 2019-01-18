@@ -1,3 +1,3 @@
-# My Website
+# Brian Glen's Website
 
-This is the source code for it.
+It's 2019, time for a new website. This is the source code for it.

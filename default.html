@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Brian Glen</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+	<a href="/" class="logo">Brian Glen</a>
+
+	<div class="header-right">
+		<ul>
+		  <li><a href="#projects">Projects</a></li>
+		  <li><a href="#resume">Resume</a></li>
+		  <li><a href="#about">About</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+</header>
+
+<body>
+
+	<section class="title-section">
+		<h1> Making Lithium Ion Battery Packs <span>Safer.</span></h1>
+		<p>January 20, 2019</p>
+		<hr/>
+	</section>
+
+	<section class="body-section">
+
+		<h2>18650 Cell Overview</h2>
+
+		<p>18650 is a reference to the form factor of a single unprotected lithium cell. Each cell is 65 mm long, with a diameter of 18 mm. Most name brand cell manufactures have a ±0.2mm tolerance to both of these dimensions.</p>
+
+		<h2>Electrical Characteristics</h2>
+
+		<h3>Protected vs Unprotected</h3>
+
+		<p>Despite the name, unprotected 18650 cells contain two protection devices required by law to be sold in the U.S. First, a resettable PTC (Pressure, Temperature, Current) switch. The PTC utilizes a bimetallic material that expands under heat. When heat is generated through over-current, the PTC will expand at the desired temperature limit and break contact with the positive terminal of the battery. When the cell has cooled, the PTC will again make contact, hence the "resettable" nature. One downside, is that the bimetallic material will fatigue (work harden) over time if tripped often, and the resistance of the switch will increase. Try not to trip it.</p>
+
+		<p>The second protection device built in to all name brand cells is called a CID, or current interrupt device. The CID is a permanent pressure relief valve. If a continued over-charge event occurs, the cell could reach a point where the internal pressure is great enough to trip the CID, venting toxic gas, disconnecting the positive terminal and making the cell unusable.</p>
+
+		<p>When building custom battery packs, it is good practice to not rely on these built in mechanisms. Using an external battery management system is almost always recommended.</p>
+
+		<p>Protected cells just happen to contain their own single cell management system stored on a PCB often located where the negative terminal would be. This circuitry protects against over-charging, over-discharging, and over-current events like short circuiting. This extra PCB means that the overall length a protected cell is longer, and this length varies by manufacture. They are often a good 3 to 5mm longer than standard unprotected cells.</p>
+
+		<p>If you are building a flashlight or other small low current device that a person may hold or be very close to, I very highly recommend purchasing protected 18650 cells over non-protected ones. These almost always have to be bought new simply because they are simply not often found on the used market. Please note that most protected 18650 cells limit discharge current to around 6A, and as such they are not useful for high current applications.</p>
+	</section>
+
+</body>
+
+</html>

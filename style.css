@@ -11,7 +11,10 @@ body {
 
 h1 {
 	font-size: 4em;
+	margin-right: 2em;
 	margin-bottom: 0;
+	max-width: 800px;
+	min-width: 600px;
 }
 
 h2 {
@@ -38,6 +41,7 @@ header {
 
 header a {
 	text-align: center;
+	color: #FFFFFF;
 }
 
 ul {
@@ -53,7 +57,7 @@ li {
 }
 
 a {
-	color: #FFFFFF;
+	color: #1de2e2;
 	text-decoration: none;
 }
 

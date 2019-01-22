@@ -5,7 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Brian Glen</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="gallery.css">
 	<link href="https://fonts.googleapis.com/css?family=Sarabun:300" rel="stylesheet">
+	<script async src="gallery.js"></script>
 </head>
 
 <header>
@@ -22,47 +24,60 @@
 
 <body>
 
-	<section class="title-section">
-		<h1>Projects and other cool <span>things</span>.</h1>
+	<section class="title-section" style="padding: 0 11em">
+		<h1 style="margin-right:0">Projects and other cool <span>things</span>.</h1>
 		<hr style="margin-top:3em"/>
 	</section>
 
 	<div class="row">
 		<div class="column">
-			<img src="assets/images/lixie_zoom.png" alt="">
-			<img src="assets/images/belt_tensioner.png" alt="">
-			<img src="assets/images/bike_speedometer.png" alt="">
-			<img src="assets/images/cakeBot.png" alt="">
-			<img src="assets/images/carving_mold.gif" alt="">
-			<img src="assets/images/tank_front.png" alt="">
-			<img src="assets/images/tank_complete.png" alt="">
-			<img src="assets/images/large_cnc_router.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/lixie_zoom.png" alt="Looking through the magnifying glass.">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/belt_tensioner.png" alt="sddfs">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/bike_speedometer.png" alt="dsfsd">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/cakeBot.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/carving_mold.gif" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/tank_front.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/tank_complete.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/large_cnc_router.png" alt="">
 		</div>
 		<div class="column">
-			<img src="assets/images/nifty_sticker.png" alt="">
-			<img src="assets/images/tank_top.png" alt="">
-			<img src="assets/images/tank_gearbox.png" alt="">
-			<img src="assets/images/tank_batteries.png" alt="">
-			<img src="assets/images/clock.gif" alt="">
-			<img src="assets/images/rabbit.png" alt="">
-			<img src="assets/images/lixie_alive.png" alt="">
-			<img src="assets/images/plane_bot.png" alt="">
-			<img src="assets/images/nrf_smd.png" alt="">
-			<img src="assets/images/wire_vise.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/nifty_sticker.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/tank_top.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/tank_gearbox.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/tank_batteries.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/clock.gif" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/rabbit.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/lixie_alive.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/plane_bot.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/nrf_smd.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/wire_vise.png" alt="">
 		</div>
 		<div class="column">
-			<img src="assets/images/pulley_detail.png" alt="">
-			<img src="assets/images/motor_tensioner_combo.png" alt="">
-			<img src="assets/images/electric_bike_side.png" alt="">
-			<img src="assets/images/protoboard.png" alt="">
-			<img src="assets/images/ebike_battery.png" alt="">
-			<img src="assets/images/clock_prototype.png" alt="">
-			<img src="assets/images/clock_schematic.png" alt="">
-			<img src="assets/images/compact_printer.png" alt="">
-			<img src="assets/images/motor_mount_rear.png" alt="">
-			<img src="assets/images/lixie_boards.png" alt="">
-			<img src="assets/images/lixie_with_leds.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/pulley_detail.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/motor_tensioner_combo.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/electric_bike_side.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/protoboard.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/ebike_battery.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/clock_prototype.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/clock_schematic.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/compact_printer.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/motor_mount_rear.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/lixie_boards.png" alt="">
+			<img class="gallery-image" onclick="modal(this)" src="assets/images/lixie_with_leds.png" alt="">
 		</div>
+	</div>
+
+	<!-- Modal to view detailed images -->
+	<div id="myModal" class="modal">
+
+	  <!-- The Close Button -->
+	  <span class="close">&times;</span>
+
+	  <!-- Modal Content (The Image) -->
+	  <img class="modal-content" id="modal-image">
+
+	  <!-- Modal Caption (Image Text) -->
+	  <div id="modal-caption"></div>
 	</div>
 
 </body>

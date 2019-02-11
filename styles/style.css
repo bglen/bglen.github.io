@@ -1,0 +1,61 @@
+body {
+}
+
+h1 {
+	color: #cc0066;
+}
+
+h2 {
+	color: #cc0066;
+}
+
+h3 {
+	color: #cc0066;
+}
+
+p {
+	color: #333333;
+	font-size: 1.2em;
+}
+
+a {
+	color: #cc0066;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ff0000;
+}
+
+.logo {
+	font-size: 2em;
+}
+
+.nifty-link {
+	color: #333333;
+}
+
+.visited {
+	color: #cc0066;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.heading-text {
+	margin: auto;
+	max-width: 700px;
+}
+
+.post-img {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	max-width: 75%;
+	hight: auto;
+}
+
+.post-video {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}

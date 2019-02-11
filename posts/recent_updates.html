@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Brian Glen">
+  <title>Brian Glen</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="../styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <!-- Logo -->
+    <a href="../index.html" class="my-0 mr-md-auto font-weight-normal logo">Brian Glen</a>
+
+    <!-- Nav Links -->
+    <nav class="my-2 my-md-0 mr-md-3">
+      <a class="p-2 nifty-link" href="../posts.html">Posts</a>
+      <a class="p-2 nifty-link" href="../projects.html">Projects</a>
+      <a class="p-2 nifty-link" href="../assets/brianGlen_resume.pdf">Resume</a>
+      <a class="p-2 nifty-link" href="../contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Content -->
+  <div class="container bg-light">
+
+    <!-- Article Title -->
+    <div class="row">
+      <div class="col-md">
+        <h1>Recent Updates</h1>
+        <p>February 4, 2019</p>
+        <hr/>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="row">
+      <div class = "col">
+
+        <img src="../assets/images/posts/harvard_pano.jpeg" class="post-img" style="max-width: 100%" alt="MakeHarvard">
+
+        <p>Alright, quick update for now.</p>
+
+        <p>Last weekend we went to Boston for MakeHarvard. Boston is pretty cool. We met cool people, built cool stuff, and somehow ended up at MIT's MITERS machining adapters on their lathe. Here is a terrible video:</p>
+
+        <center>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/0ZK3NpCNQRY" frameborder="0" class="post-video" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+
+        <p>We ended up building a robot that uses OpenCV to look for oulets in a room, plug in, steal power, and mine bitcoin with it. More on this soon.</p>
+
+        <p>The electric bike is complete except for the rear drive pulley. The original idea to build it was to CNC machine a mold out of wood, but that didn't work out. </p>
+
+        <center>
+            <img src="../assets/images/posts/cnc_mold.jpeg" class="post-img" alt="Attemping to cnc the mold.">
+        </center>
+
+        <p>As you can see, the only CNC machine I had access to over winter break was my friend's friend's X-Carve, made by Inventables. Despite the large size of this thing, it turned out to only be good for small sign carvings. It would cut the shape with the bits we had, however we could only run the thing up to around 30 mm/min without skipping steps. We used new bits, and spent and entire day squaring the thing up, tightening the belts, increasing stepper current, etc. to no avail.</p>
+
+        <p>We were cutting with a 2 flute, 1/4" end mill at a maximum depth of cut of 1/8", and a maximum stepover of just 1/3 the tool's diameter. In our effort to prevent step loss, the time of cuts went in to the 3D printer range, so we gave up and enjoyed our break. This semester, I have access to an Ultimaker at the CDME's (Center of Design and Manufacturing Excellence) newly built makerspace, where I might be a shop supervisor this spring</p>
+
+        <center>
+          <img src="../assets/images/posts/part_not_found.png" class="post-img" style="max-width: 50%" alt="Attemping to cnc the mold.">
+        </center>
+
+        <p>Nifty Parts has been going well, we are currently in a private alpha testing phase, and have a group of people testing out the site, and buying things. It's looking like we will be in public beta by the end of February and hopefully ready for the higher demand of public launch a month before summer starts. I've realized that one of the more undderated and subtle features of Nifty Parts is the custom inventory and data system we are building. We've taken a more scientific approach to handling all the specifications our parts have. For example, all numerical units will have a defined base unit, in which information is stored in on the database. When someone searches for a certain spec, such as shaft diameter, the entry is converted to base units, and fed to the search algorithm.</p>
+
+        <p>This means that of the relevant parts, all parts that match the desired spec, as well as equivalent unit parts show up. If I search for a 3/4" ID gear, this means that 19 mm OD gears will also show up, giving the user more options that still may be relevant to what they are looking for. Of course, it is extremly important to display parts in the units that they were designed in, as 3/4" is not exactly 19 mm, its 19.05 mm. The tolerances are also based around the design units as well. However, we often see parts that have had their specs converted many times. A shaft diameter that is listed as 3.17 mm on one site may not show up if a user is looking for 1/4" parts, but it will on ours.</p>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <small class="d-block mb-3 text-muted">Brian Glen © 2018-2019</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </div>
+
+  <!-- Javascript Source -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+</html>

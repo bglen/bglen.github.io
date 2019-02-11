@@ -1,77 +1,217 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<title>Brian Glen</title>
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Sarabun:300" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Brian Glen">
+  <title>Brian Glen</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="styles/style.css" rel="stylesheet">
+  <link href="styles/carousel.css" rel="stylesheet">
 </head>
-
-<header>
-	<div class="row">
-
-		<!-- Logo -->
-		<div class="col-5">
-			<a href="index.html" class="logo">Brian Glen</a>
-		</div>
-
-		<!-- Menu -->
-		<div class="col-7">
-			<div class="header-right">
-				<ul>
-				  <li><a href="projects.html">Projects</a></li>
-				  <li><a href="brianGlen_resume.pdf">Resume</a></li>
-				  <li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</header>
 
 <body>
 
-	<section class="title-section">
-		<div class="row">
-			<div class="col-12">
-				<h1> Making Lithium Ion Battery Packs <span>Safer.</span></h1>
-				<p>January 20, 2019</p>
-				<hr/>
-			</div>
-		</div>
-	</section>
+  <!-- Navigation -->
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <!-- Logo -->
+    <a href="index.html" class="my-0 mr-md-auto font-weight-normal logo">Brian Glen</a>
 
-	<section class="body-section">
-		<div class="row">
-			<div class="col-12">
-				<p>Homemade lithium-ion battery packs can be a safe method of power storage, if you take the neccesary precautions.</p>
+    <!-- Nav Links -->
+    <nav class="my-2 my-md-0 mr-md-3">
+      <a class="p-2 nifty-link" href="posts.html">Posts</a>
+      <a class="p-2 nifty-link" href="projects.html">Projects</a>
+      <a class="p-2 nifty-link" href="assets/brianGlen_resume.pdf">Resume</a>
+      <a class="p-2 nifty-link" href="contact.html">Contact</a>
+    </nav>
+  </div>
 
-				<br/>
+  <!-- Carosel -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
 
-				<h2>18650 Cell Overview</h2>
+      <!-- Recent Updates -->
+      <div class="carousel-item active">
+        <img src="assets/images/posts/harvard_pano.jpeg" style="float: right" alt="MakeHarvard">
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1 class="carousel-header" style="color: white">Recent Updates.</h1>
+            <p style="color: white">Some quick updates on projects, Nifty Parts, and hackathons.</p>
+            <p><a class="btn btn-lg btn-primary" href="posts/recent_updates.html" role="button">Recent Updates</a></p>
+          </div>
+        </div>
+      </div>
 
-				<p>18650 is a reference to the form factor of a single unprotected lithium cell. Each cell is 65 mm long, with a diameter of 18 mm. Most name brand cell manufactures have a ±0.2mm tolerance to both of these dimensions.</p>
+      <!-- 
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" ><rect fill="#777" width="100%" height="100%"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel-header">Another example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+    -->
 
-				<h2>Cell Hazards</h2>
+      <!-- Nifty Parts -->
+      <div class="carousel-item">
+        <img src="assets/images/posts/part_not_found.png" class="carousel-img" alt="A nifty parts photo is missing...">
+        <div class="container">
+          <div class="carousel-caption">
+            <button type="button" class="btn btn-success btn-md" disabled>Coming Soon</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Side Caroseul buttons -->
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
-				<h2>Electrical Characteristics</h2>
+  <!-- Content -->
+  <div class="container bg-light">
 
-				<h3>Protected vs Unprotected</h3>
+    <div class="row" style="margin-bottom: 15px">
+      <div class="col">
+        <h1>Posts</h1>
+      </div>
+    </div>
 
-				<p>Despite the name, unprotected 18650 cells contain two protection devices required by law to be sold in the U.S. First, a resettable PTC (Pressure, Temperature, Current) switch. The PTC utilizes a bimetallic material that expands under heat. When heat is generated through over-current, the PTC will expand at the desired temperature limit and break contact with the positive terminal of the battery. When the cell has cooled, the PTC will again make contact, hence the "resettable" nature. One downside, is that the bimetallic material will fatigue (work harden) over time if tripped often, and the resistance of the switch will increase. Try not to trip it.</p>
+    <!-- Battery Guide -->
+    <div class="row">
+      <div class="col">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
 
-				<p>The second protection device built in to all name brand cells is called a CID, or current interrupt device. The CID is a permanent pressure relief valve. If a continued over-charge event occurs, the cell could reach a point where the internal pressure is great enough to trip the CID, venting toxic gas, disconnecting the positive terminal and making the cell unusable.</p>
+          <div class="card-body d-flex flex-column align-items-start">
+            <strong class="d-inline-block mb-2 text-success">Guide</strong>
+            <h3 class="mb-0">
+              <a class="text-dark" href="#">Building Safer Lithium Battery Packs</a>
+            </h3>
+            <div class="mb-1 text-muted">TBD</div>
+            <p class="card-text mb-auto">DIY lithium-ion battery packs can be quite safe, if you take the neccesary precautions.</p>
+            <!-- Button -->
+            <button type="button" class="btn btn-success btn-md" disabled>Work In Progress</button>
+          </div>
+          
+          <!-- Image -->
+          <img src="assets/images/tank_batteries.png" class="card-img-right flex-auto d-none d-lg-block" width="250"  alt="Battery Pack for our tank.">
 
-				<p>When building custom battery packs, it is good practice to not rely on these built in mechanisms. Using an external battery management system is almost always recommended.</p>
+        </div>
+      </div>
+    </div>
 
-				<p>Protected cells just happen to contain their own single cell management system stored on a PCB often located where the negative terminal would be. This circuitry protects against over-charging, over-discharging, and over-current events like short circuiting. This extra PCB means that the overall length a protected cell is longer, and this length varies by manufacture. They are often a good 3 to 5mm longer than standard unprotected cells.</p>
+    <!-- Updates -->
+    <div class="row">
+      <div class="col">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
 
-				<p>If you are building a flashlight or other small low current device that a person may hold or be very close to, I very highly recommend purchasing protected 18650 cells over non-protected ones. These almost always have to be bought new simply because they are not often found on the used market. The protection circuits almost always limit the discharge current to 6 amps continuous, and thus they are not useful for high discharge applications.</p>
-			</div>
-		</div>
-	</section>
+          <!-- Image -->
+          <img src="assets/images/bitBandit_front.png" class="card-img-right flex-auto d-none d-lg-block" width="200" height="250" alt="A robot that steals power goes here.">
+
+          <!-- Text -->
+          <div class="card-body d-flex flex-column align-items-start float-right">
+            <p>
+              <strong class="d-inline-block mb-2 text-danger">Updates </strong> &middot;
+              <strong class="d-inline-block mb-2 text-success"> Projects </strong> &middot;
+              <strong class="d-inline-block mb-2 text-info"> Hackathons</strong>
+            </p>
+
+            <h3 class="mb-0">
+              <a class="text-dark" href="#">Recent Updates</a>
+            </h3>
+            <div class="mb-1 text-muted">Feb 4</div>
+            <p class="card-text mb-auto">Some quick updates on projects, Nifty Parts, and hackathons.</p>
+
+            <!-- Button -->
+            <a class="btn btn-md btn-outline-primary" href="posts/recent_updates.html" role="button">View</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Finally, a new site -->
+    <div class="row">
+      <div class="col">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+          <div class="card-body d-flex flex-column align-items-start">
+            <strong class="d-inline-block mb-2 text-danger">Updates</strong>
+            <h3 class="mb-0">
+              <a class="text-dark" href="#">Finally, a new site.</a>
+            </h3>
+            <div class="mb-1 text-muted">Jan 6</div>
+            <p class="card-text mb-auto">About time, too.</p>
+            <!-- Button -->
+            <a class="btn btn-md btn-outline-danger" href="posts/new_website.html" role="button">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cake Bot -->
+    <div class="row">
+      <div class="col">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+
+          <!-- Image -->
+          <img src="assets/images/cakeBot.png" class="card-img-right flex-auto d-none d-lg-block" width="200" height="250" alt="CakeBot does cookies.">
+
+          <!-- Text -->
+          <div class="card-body d-flex flex-column align-items-start float-right">
+            <strong class="d-inline-block mb-2 text-info">Hackathons</strong>
+            <h3 class="mb-0">
+              <a class="text-dark" href="#">Cake Bot!</a>
+            </h3>
+            <div class="mb-1 text-muted">Oct 8</div>
+            <p class="card-text mb-auto">Our ridiculous entry for Hakron 3000</p>
+
+            <!-- Button -->
+            <a class="btn btn-md btn-outline-info" href="#" role="button">View</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    <!-- Footer -->
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <small class="d-block mb-3 text-muted">Brian Glen © 2018-2019</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Javascript Source -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 </body>
-
 </html>

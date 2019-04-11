@@ -21,7 +21,7 @@ p {
 }
 
 a {
-	color: #ffffff;
+	color: #00ccff;
 }
 
 a:hover {
@@ -31,13 +31,18 @@ a:hover {
 
 .logo {
 	font-size: 3em;
-}
-
-.nifty-link {
 	color: #ffffff;
 }
 
-.visited {
+.logo:hover {
+	color: #00ccff;
+}
+
+.reverse-link {
+	color: #ffffff;
+}
+
+.reverse-link:hover {
 	color: #00ccff;
 }
 

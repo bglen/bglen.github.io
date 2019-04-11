@@ -1,46 +1,57 @@
 body {
+	font-family: 'IBM Plex Sans', sans-serif;
+	background-color: #73808c;
 }
 
 h1 {
-	color: #336699;
+	color: #ffffff;
 }
 
 h2 {
-	color: #336699;
+	color: #ffffff;
 }
 
 h3 {
-	color: #336699;
+	color: #ffffff;
 }
 
 p {
-	color: #333333;
+	color: #ffffff;
 	font-size: 1.2em;
 }
 
 a {
-	color: #336699;
+	color: #ffffff;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #ff0000;
+	color: #ffffff;
 }
 
 .logo {
-	font-size: 2em;
+	font-size: 3em;
 }
 
 .nifty-link {
-	color: #333333;
+	color: #ffffff;
 }
 
 .visited {
-	color: #336699;
+	color: #00ccff;
 }
 
 .card-deck .card {
   min-width: 220px;
+}
+
+.card-body {
+	background-color: #73808c;
+}
+
+.card-date {
+	color: #00ccff;
+	font-size: 0.8em;
 }
 
 .heading-text {

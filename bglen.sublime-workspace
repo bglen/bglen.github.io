@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"marin",
+				"margin-bottom\tproperty"
+			],
+			[
 				"ali",
 				"align-items-start"
 			],
@@ -192,57 +196,13 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "/Users/brian/Desktop/feed.xml",
 			"settings":
 			{
-				"buffer_size": 8812,
+				"buffer_size": 496,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "posts/new_website.html",
-			"settings":
-			{
-				"buffer_size": 4630,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "posts/making_safer_lithium_battery_packs.html",
-			"settings":
-			{
-				"buffer_size": 5220,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "styles/style.css",
-			"settings":
-			{
-				"buffer_size": 315,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "projects.html",
-			"settings":
-			{
-				"buffer_size": 18112,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "posts.html",
-			"settings":
-			{
-				"buffer_size": 5647,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Unix",
+				"name": "<rss version=\"2.0\">"
 			}
 		}
 	],
@@ -284,17 +244,22 @@
 	"expanded_folders":
 	[
 		"/Users/brian/Documents/GitHub/brianglen.github.io",
-		"/Users/brian/Documents/GitHub/brianglen.github.io/old_versions",
-		"/Users/brian/Documents/GitHub/brianglen.github.io/posts"
+		"/Users/brian/Documents/GitHub/brianglen.github.io/old_versions"
 	],
 	"file_history":
 	[
+		"/Users/brian/Documents/GitHub/brianglen.github.io/posts.html",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/projects.html",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/styles/carousel.css",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/styles/style.css",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/posts/new_website.html",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/contact.html",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/posts/recent_updates.html",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/index.html",
+		"/Users/brian/Documents/GitHub/brianglen.github.io/posts/making_safer_lithium_battery_packs.html",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/style.css",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/carousel.css",
-		"/Users/brian/Documents/GitHub/brianglen.github.io/contact.html",
-		"/Users/brian/Documents/GitHub/brianglen.github.io/index.html",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/gallery.css",
-		"/Users/brian/Documents/GitHub/brianglen.github.io/projects.html",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/resume.html",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/gallery.js",
 		"/Users/brian/Documents/GitHub/brianglen.github.io/default.html",
@@ -380,185 +345,38 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/Users/brian/Desktop/feed.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8812,
+						"buffer_size": 496,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								746,
-								857
+								496,
+								496
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"auto_name": "<rss version=\"2.0\">",
+							"syntax": "Packages/XML/XML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 746.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "posts/new_website.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4630,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1617,
-								1617
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 366.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "posts/making_safer_lithium_battery_packs.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5220,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								618,
-								618
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "styles/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 315,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								200,
-								200
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "projects.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18112,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6452,
-								6499
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2560.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "posts.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5647,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1232,
-								1232
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
 					"type": "text"
 				}
 			]

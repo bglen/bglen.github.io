@@ -2,15 +2,15 @@ body {
 }
 
 h1 {
-	color: #cc0066;
+	color: #336699;
 }
 
 h2 {
-	color: #cc0066;
+	color: #336699;
 }
 
 h3 {
-	color: #cc0066;
+	color: #336699;
 }
 
 p {
@@ -19,7 +19,7 @@ p {
 }
 
 a {
-	color: #cc0066;
+	color: #336699;
 }
 
 a:hover {
@@ -36,7 +36,7 @@ a:hover {
 }
 
 .visited {
-	color: #cc0066;
+	color: #336699;
 }
 
 .card-deck .card {

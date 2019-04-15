@@ -199,7 +199,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 19455,
+				"buffer_size": 22737,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -242,8 +242,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/brian/Documents/GitHub/brianglen.github.io",
-		"/Users/brian/Documents/GitHub/brianglen.github.io/old_versions"
+		"/Users/brian/Documents/GitHub/brianglen.github.io"
 	],
 	"file_history":
 	[
@@ -354,15 +353,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19455,
+						"buffer_size": 22737,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1796,
-								1796
+								18265,
+								18265
 							]
 						],
 						"settings":
@@ -372,7 +371,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1190.0,
+						"translation.y": 10338.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
